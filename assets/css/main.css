@@ -1,6 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
 
 /*Use mobile setting*/
 @media only screen and (min-width: 761px) {
+    /*center the menu for desktop*/
+    .responsive_Menu{
+        text-align: center;
+    }
     
 }    

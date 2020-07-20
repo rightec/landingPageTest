@@ -19,30 +19,58 @@ Attribute type is not mandatory-->
         <body >
                 <!-- blocco header -->
                 <header>  
-                        <h1>Landerz</h1>                      
+                        <h4 id="headTitle">Landerz</h4>                      
                 </header>
                 <!-- blocco menu -->
                 <nav class="responsive_Menu">   
                         <!--Describe the menu elements--> 
                         <ul class="menu__items">                                
                                 <li class="menuItem"><a href="#">Home</a></li>   
-                                <li class="menuItem"><a href="#">Features</a></li> 
-                                <li class="menuItem"><a href="#">About Us</a></li> 
-                                <li class="menuItem"><a href="#">Testimonials</a></li>   
-                                <li class="menuItem"><a href="#">Blog</a></li> 
-                                <li class="menuItem"><a href="#">Contacts</a></li>                                                              
+                                <li class="menuItem"><a href="#Feature">Features</a></li> 
+                                <li class="menuItem"><a href="#About">About Us</a></li> 
+                                <li class="menuItem"><a href="#Testimonial">Testimonials</a></li>   
+                                <li class="menuItem"><a href="#Blog">Blog</a></li> 
+                                <li class="menuItem"><a href="#Contacts">Contacts</a></li>                                                              
                         </ul> 
                 </nav>
                 
                 <!-- blocco content  -->
                 <div class="content">
-                        <section id="Home" class="sections">
-                                <h2>Grow your business faster</h2>
-                                <p>This is Home Section</p>
-                        </section>
+                        <div id="Home" >
+                                <aside class="asideHome">   
+                                        <h2>Grow your business faster</h2>                                     
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                        <span class="button" id="getStartBtn">Get Started</span>
+                                </aside>
+                                <aside class="asideHome">
+                                        <img src="assets/img/landing_1.png" alt="Working to Grow">
+                                </aside>
+                        </div>
                         <section id="Feature" class="sections">
                                 <h3>Feature</h3>
-                                <p>This is feature Section</p>
+                                <div class="featBlock" id="featBlochHigh">
+                                        <aside class="asideFeatBlock">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>  
+                                        </aside>
+                                        <aside class="asideFeatBlock">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>  
+                                        </aside>
+                                        <aside class="asideFeatBlock">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>  
+                                        </aside>
+                                </div>
+                                <div class="featBlock" id="featBlochLow">
+                                        <aside class="asideFeatBlock">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>  
+                                        </aside>
+                                        <aside class="asideFeatBlock">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>  
+                                        </aside>
+                                        <aside class="asideFeatBlock">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>  
+                                        </aside>
+                                </div>
+                                
                         </section>
                         <section id="About" class="sections">
                                 <h3>About</h3>
@@ -58,9 +86,22 @@ Attribute type is not mandatory-->
                         </section>
                         <section id="Contacts" class="sections">
                                 <h3>Contacts</h3>
-                                <p>This is Contact Section</p>
-                                <form id="contactForm">  
-                                </form>    
+                                <div id="blocco_form">
+                                        <form action="/action_page.php">
+                                                <div class="formName">
+                                                        <label for="First_Name">First Name</label><br>   
+                                                        <input type="text" id="First_Name"><br>
+                                                        <label for="Last_Name">Last Name</label><br>
+                                                        <input type="text" id="Last_Name" ><br>
+                                                </div>
+                                                <label for="email">E-mail</label><br>
+                                                <input type="email" id="email" ><br>
+                                                <label for="Subject">Subject</label><br>
+                                                <input type="text" id="Subject" ><br>
+                                                <textarea name="messaggio" rows="10" cols="50" placeholder="Write your message"></textarea><br>
+                                                <input type="submit" value="Send Message">
+                                        </form>
+                                    </div>   
                         </section>
                 </div>
                 <!-- blocco footer -->

@@ -1,3 +1,5 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,200&display=swap');
 /*
 @media only screen and (min-width: 769px) {
 
@@ -14,9 +16,90 @@
 
 /*Hereafter a default situation 
 Valid for all device*/
+* {
+    font-family: 'Montserrat', sans-serif;    
+}
 
+#headTitle{
+    text-align: center;
+}
 
+/*Set menu items element inline*/
+.menu__items > li{
+    display: inline-block
+}
 
+/*Set text decoration for menu items*/
+.menuItem > a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #00d2b5;
+  }
+
+  
+.button {
+    background-color: #00d2b5;
+  }
+
+  .asideHome {
+    display: inline-block;
+    margin-left: 20px;
+    width: 40%;
+  }
+
+  .asideHome > img{
+    display: inline-block;
+    width: 300px;
+  }
+
+  .sections h3{
+      text-align: center;
+  }
+
+  .sections {
+      text-align: center;
+  }
+
+  /*
+  .asideFeatBlock{
+      display: inline-block;
+  }
+
+  .asideFeatBlock  p{
+    display: inline-block;
+}
+*/
+#featBlochHigh > aside{
+    display: inline-block;
+    width: 30%;
+}
+
+#featBlochLow > aside{
+    display: inline-block;
+    width: 30%;
+}
+
+#Feature > div{
+    background-color: aliceblue;
+}
+.asideFeatBlock > p{
+    font-size: smaller;
+    background-color: white;
+    margin: 10px;
+}
+
+  /*
+.formName{
+    text-align: left;
+}
+
+.formName > input{
+    width: 45%;
+}
+*/
 
 /*Use mobile setting*/
 @media only screen and (max-width: 480px) {
