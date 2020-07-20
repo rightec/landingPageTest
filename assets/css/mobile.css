@@ -1,0 +1,26 @@
+/*
+@media only screen and (min-width: 769px) {
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+}
+*/
+
+/*Common rules for mobile and desktop*/
+
+
+
+/*Hereafter a default situation 
+Valid for all device*/
+
+
+
+
+/*Use mobile setting*/
+@media only screen and (max-width: 480px) {
+/*Hereafter a default situation for a mobile device*/
+
+   
+}

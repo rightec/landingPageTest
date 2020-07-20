@@ -1,0 +1,9 @@
+# ChangeLog
+Qui c'è il diario dell'esercitazione
+## [1.0.0] - 2020-20-07
+### Created
+
+Created basic HTML struct at 11.00 am 
+
+
+

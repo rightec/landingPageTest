@@ -1,0 +1,2 @@
+colore: #00d2b5
+font: Montserrat
